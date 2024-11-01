@@ -14,7 +14,7 @@ function Header() {
 
       {/* Right Side */}
       <div className="flex items-center space-x-16">
-        <Link to="/" className="hover:text-gray-400">lHome</Link>
+        <Link to="/" className="hover:text-gray-400">Home</Link>
         <Link to="/about" className="hover:text-gray-400">About</Link>
         <Link to="/services" className="hover:text-gray-400">Services</Link>
         <Link to="/projects" className="hover:text-gray-400">Projects</Link>
