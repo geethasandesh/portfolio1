@@ -32,26 +32,26 @@ const Home = () => {
   ];
 
   return (
-    <div className={`relative min-h-screen p-8 ${isDarkMode ? 'bg-black' : 'bg-white'} ${isDarkMode ? 'text-white' : 'text-black'}`}>
+    <div className={`relative min-h-screen p-4 sm:p-6 lg:p-8 ${isDarkMode ? 'bg-black' : 'bg-white'} ${isDarkMode ? 'text-white' : 'text-black'}`}>
       {/* Header Section */}
       <div className="max-w-[1400px] mx-auto relative">
         {/* Top-left text */}
-        <div className="absolute top-8 left-8">
-          <div className="text-lg text-gray-300">Photography by</div>
-          <h1 className="text-6xl font-bold tracking-wider mt-2">S A N D E S H</h1>
+        <div className="relative md:absolute top-4 md:top-8 left-4 md:left-8 mb-6 md:mb-0">
+          <div className="text-base sm:text-lg text-gray-300">Photography by</div>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-wider mt-2">S A N D E S H</h1>
         </div>
 
         {/* Top-right text */}
-        <div className="absolute top-8 right-8 text-right">
-          <div className="text-lg text-gray-300">Let's Work</div>
-          <div className="text-3xl font-bold tracking-wide mt-2">TOGETHER</div>
+        <div className="relative md:absolute top-4 md:top-8 right-4 md:right-8 text-right mb-8 md:mb-0">
+          <div className="text-base sm:text-lg text-gray-300">Let's Work</div>
+          <div className="text-xl sm:text-2xl md:text-3xl font-bold tracking-wide mt-2">TOGETHER</div>
         </div>
 
         {/* Main Content - Image Grid */}
-        <div className="pt-48 pb-16">
-          <div className="grid grid-cols-12 gap-4 max-w-[1400px] mx-auto">
+        <div className="pt-4 md:pt-48 pb-16">
+          <div className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-3 sm:gap-4 max-w-[1400px] mx-auto">
             {/* Row 1 */}
-            <div className="col-span-3 row-span-2">
+            <div className="col-span-4 md:col-span-3 md:row-span-2">
               <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
                 <img 
                   src={images[0]} 
@@ -60,7 +60,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="col-span-3">
+            <div className="col-span-4 md:col-span-3">
               <div className="relative aspect-square overflow-hidden rounded-lg">
                 <img 
                   src={images[1]} 
@@ -69,7 +69,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="col-span-6">
+            <div className="col-span-4 md:col-span-6">
               <div className="relative aspect-[2/1] overflow-hidden rounded-lg">
                 <img 
                   src={images[2]} 
@@ -80,7 +80,7 @@ const Home = () => {
             </div>
 
             {/* Row 2 */}
-            <div className="col-span-6">
+            <div className="col-span-4 md:col-span-6">
               <div className="relative aspect-[2/1] overflow-hidden rounded-lg">
                 <img 
                   src={images[3]} 
@@ -89,7 +89,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="col-span-3">
+            <div className="col-span-4 md:col-span-3">
               <div className="relative aspect-square overflow-hidden rounded-lg">
                 <img 
                   src={images[4]} 
@@ -100,7 +100,7 @@ const Home = () => {
             </div>
 
             {/* Row 3 */}
-            <div className="col-span-3 row-span-2">
+            <div className="col-span-4 md:col-span-3 md:row-span-2">
               <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
                 <img 
                   src={images[5]} 
@@ -109,7 +109,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="col-span-6">
+            <div className="col-span-4 md:col-span-6">
               <div className="relative aspect-[2/1] overflow-hidden rounded-lg">
                 <img 
                   src={images[6]} 
@@ -118,7 +118,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="col-span-3">
+            <div className="col-span-4 md:col-span-3">
               <div className="relative aspect-square overflow-hidden rounded-lg">
                 <img 
                   src={images[7]} 
@@ -133,7 +133,7 @@ const Home = () => {
 
       {/* Dark Mode Toggle */}
       <button 
-        className="fixed bottom-8 left-8 bg-white bg-opacity-10 rounded-full p-3 hover:bg-opacity-20 transition-all duration-300"
+        className="fixed bottom-4 sm:bottom-6 lg:bottom-8 left-4 sm:left-6 lg:left-8 bg-white bg-opacity-10 rounded-full p-3 hover:bg-opacity-20 transition-all duration-300"
         aria-label="Toggle dark mode"
         onClick={toggleDarkMode}
       >
