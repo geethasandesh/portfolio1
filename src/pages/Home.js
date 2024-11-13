@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import image1 from '../Images/image1.jpg';
-import image2 from '../Images/image2.jpg';
+import image1 from '../Images/image1.PNG';
+import mruflower from '../Images/mruflower.JPG';
 import image3 from '../Images/image3.jpg';
+import natyam from '../Images/natyam.JPG';
+import smash from '../Images/smash.jpg';
+import lambo from '../Images/lambo.PNG';
+import mustangG from '../Images/mustangG.PNG';
+import chai from '../Images/chai.JPG';
+
 
 const Home = () => {
   const [isDarkMode, setIsDarkMode] = useState(true); // Default is dark mode
@@ -22,13 +28,13 @@ const Home = () => {
   // Sample images using local imports
   const images = [
     image1,  // tall image
-    image2,  // square image
+    mruflower,  // square image
     image3,  // wide image
-    image1,  // tall image (duplicate for example)
-    image2,  // square image (duplicate for example)
-    image3,  // rectangle image (duplicate for example)
-    image1,  // square image (duplicate for example)
-    image2   // tall image (duplicate for example)
+    natyam,  // tall image (duplicate for example)
+    smash,  // square image (duplicate for example)
+    lambo,  // rectangle image (duplicate for example)
+    mustangG,  // square image (duplicate for example)
+    chai   // tall image (duplicate for example)
   ];
 
   return (
@@ -100,8 +106,8 @@ const Home = () => {
             </div>
 
             {/* Row 3 */}
-            <div className="col-span-4 md:col-span-3 md:row-span-2">
-              <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
+            <div className="col-span-4 md:col-span-3 md:row-span-2 -mt-56">
+              <div className="relative aspect-[3/5] overflow-hidden rounded-lg">
                 <img 
                   src={images[5]} 
                   alt="Portrait 6"
@@ -127,6 +133,8 @@ const Home = () => {
                 />
               </div>
             </div>
+            
+
           </div>
         </div>
       </div>

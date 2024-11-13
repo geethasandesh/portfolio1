@@ -33,10 +33,10 @@ const Projects = () => {
   }, [isDarkMode]);
 
   return (
-    <div className={`min-h-screen py-8 transition-all ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
+    <div className={`min-h-screen py-8 transition-all ${isDarkMode ? 'bg-black text-black' : 'bg-white text-black'}`}>
       <div className="max-w-4xl mx-auto">
         {projects.map((project, index) => (
-          <div key={index} className="mb-6 p-4 border border-gray-600 rounded-lg" style={{ backgroundColor: isDarkMode ? '#f3e68a' : '#f7f7f7' }}>
+          <div key={index} className="mb-6 p-4 border border-gray-600 rounded-lg" style={{ backgroundColor: isDarkMode ? '#d3d3d3' : '#f7f7f7' }}>
             <h2 className="text-xl font-semibold">{project.name}</h2>
             <p className="mt-2">{project.description}</p>
           </div>
