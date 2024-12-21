@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import image3 from '../Images/image3.jpg';
 import ram from '../Images/ram.JPG';
 import vadhina from '../Images/vadhina.JPG';
 import jacksparrow from '../Images/jacksparrow.JPG';
@@ -9,6 +8,31 @@ import pinup from '../Images/pinup.JPG';
 import glamour from '../Images/glamour.JPG';
 import accom1 from '../Images/accom1.JPG'
 import temple from '../Images/temple.jpg'
+import teagarden from '../Images/teagarden.PNG';
+import toycars from '../Images/toycars.JPG';
+import city from '../Images/city.jpg';
+import bhongir from '../Images/bhongir.jpg';
+import fire from '../Images/fire.png';
+import train from '../Images/train.jpg';
+import sunsetflower from '../Images/sunsetflower.jpg';
+import drinks from '../Images/drinks.jpg';
+import teaglass from '../Images/teaglass.JPG';
+import perfume from '../Images/perfume.jpg';
+import fishing from '../Images/fishing.JPG';
+import stick1 from '../Images/stick1.PNG';
+import beach from '../Images/beach.JPG';
+import costal from '../Images/costal.jpg';
+import hoodie from '../Images/hoodie.jpg';
+import kview from '../Images/kview.jpg';
+import kview1 from '../Images/kview1.jpg';
+import re from '../Images/RE.jpg';
+import munnartext from '../Images/munnartext.PNG';
+import seaman from '../Images/seaman.jpg';
+import sflower from '../Images/sflower.jpg';
+import ski from '../Images/ski.jpg';
+import varkalafortbeach from '../Images/varkalafortbeach.PNG';
+
+
 
 const Works = () => {
   const [activeFilter, setActiveFilter] = useState('ALL');
@@ -23,6 +47,14 @@ const Works = () => {
       title: 'Pin-up Style', 
       type: 'PEOPLE', 
       className: 'md:col-span-2 md:row-span-2 col-span-full'
+    },
+    { 
+      id: 22, 
+      category: 'ADVENTURE', 
+      image: beach, 
+      title: 'vibe', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
     },
     { 
       id: 2, 
@@ -65,6 +97,184 @@ const Works = () => {
       className: 'md:col-span-2 md:row-span-6 col-span-full'
     },
     { 
+      id: 10, 
+      category: 'ADVENTURE', 
+      image: teagarden, 
+      title: 'green', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-6 col-span-full'
+    },
+    { 
+      id: 11, 
+      category: 'ACCOMMODATION', 
+      image: toycars, 
+      title: 'TOY', 
+      type: 'ACCOMMODATION', 
+      className: 'md:col-span-2 md:row-span-2 col-span-full'
+    },
+    { 
+      id: 12, 
+      category: 'ACCOMMODATION', 
+      image: city, 
+      title: 'CITY', 
+      type: 'ACCOMMODATION', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 13, 
+      category: 'ACCOMMODATION', 
+      image: bhongir, 
+      title: 'FORT', 
+      type: 'ACCOMMODATION', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 14, 
+      category: 'ACCOMMODATION', 
+      image: fire, 
+      title: 'FIRE', 
+      type: 'ACCOMMODATION', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 15, 
+      category: 'ACCOMMODATION', 
+      image: train, 
+      title: 'TRAIN', 
+      type: 'ACCOMMODATION', 
+      className: 'md:col-span-2 md:row-span-2 col-span-full'
+    },
+    { 
+      id: 16, 
+      category: 'ADVENTURE', 
+      image: sunsetflower, 
+      title: 'SUNSET', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-2 col-span-full'
+    },
+    { 
+      id: 20, 
+      category: 'ADVENTURE', 
+      image: fishing, 
+      title: 'LAKE', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 21, 
+      category: 'ADVENTURE', 
+      image: stick1, 
+      title: 'WALLPAPER', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-6 col-span-full'
+    },
+    { 
+      id: 23, 
+      category: 'ADVENTURE', 
+      image: costal, 
+      title: 'COSTAL', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 24, 
+      category: 'ADVENTURE', 
+      image: hoodie, 
+      title: 'vibe', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-2 col-span-full'
+    },
+    { 
+      id: 25, 
+      category: 'ADVENTURE', 
+      image: kview, 
+      title: 'VIEW', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-2 col-span-full'
+    },
+    { 
+      id: 26, 
+      category: 'ADVENTURE', 
+      image: kview1, 
+      title: 'VIEW', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-2 col-span-full'
+    },
+    { 
+      id: 27, 
+      category: 'ADVENTURE', 
+      image: re, 
+      title: 'BIKE', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 28, 
+      category: 'ADVENTURE', 
+      image: munnartext, 
+      title: 'MUNNAR', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 29, 
+      category: 'ADVENTURE', 
+      image: seaman, 
+      title: 'BEACH', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 30, 
+      category: 'ADVENTURE', 
+      image: sflower, 
+      title: 'fLOWERS', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 31, 
+      category: 'ADVENTURE', 
+      image: ski, 
+      title: 'SKY', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 32, 
+      category: 'ADVENTURE', 
+      image: varkalafortbeach, 
+      title: 'VIEW', 
+      type: 'ADVENTURE', 
+      className: 'md:col-span-2 md:row-span-2 col-span-full'
+    },
+    { 
+      id: 17, 
+      category: 'ACCOMMODATION', 
+      image: drinks, 
+      title: 'DRINKS', 
+      type: 'ACCOMMODATION', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 18, 
+      category: 'ACCOMMODATION', 
+      image: teaglass, 
+      title: 'TEA', 
+      type: 'ACCOMMODATION', 
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
+    },
+    { 
+      id: 19, 
+      category: 'ACCOMMODATION', 
+      image: perfume, 
+      title: 'PERFUME', 
+      type: 'ACCOMMODATION', 
+      className: 'md:col-span-2 md:row-span-2 col-span-full'
+    },
+   
+
+    { 
       id: 7, 
       category: 'PEOPLE', 
       image: jacksparrow, 
@@ -88,6 +298,7 @@ const Works = () => {
       type: 'PEOPLE', 
       className: 'md:col-span-2 md:row-span-4 col-span-full'
     }
+    
   ];
 
   const filters = ['ALL', 'PEOPLE', 'ACCOMMODATION', 'ADVENTURE'];
