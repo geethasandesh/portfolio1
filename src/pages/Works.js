@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import image1 from '../Images/image1.jpg';
-import image2 from '../Images/image2.jpg';
 import image3 from '../Images/image3.jpg';
+import ram from '../Images/ram.JPG';
+import vadhina from '../Images/vadhina.JPG';
+import jacksparrow from '../Images/jacksparrow.JPG';
+import eyes from '../Images/eyes.JPG';
+import natura from '../Images/natura.JPG';
+import pinup from '../Images/pinup.JPG';
+import glamour from '../Images/glamour.JPG';
+import accom1 from '../Images/accom1.JPG'
+import temple from '../Images/temple.jpg'
 
 const Works = () => {
   const [activeFilter, setActiveFilter] = useState('ALL');
@@ -12,7 +19,7 @@ const Works = () => {
     { 
       id: 1, 
       category: 'PEOPLE', 
-      image: image1, 
+      image: pinup, 
       title: 'Pin-up Style', 
       type: 'PEOPLE', 
       className: 'md:col-span-2 md:row-span-2 col-span-full'
@@ -20,7 +27,7 @@ const Works = () => {
     { 
       id: 2, 
       category: 'PEOPLE', 
-      image: image2, 
+      image: ram, 
       title: 'Portrait Dark', 
       type: 'PEOPLE', 
       className: 'md:col-span-2 md:row-span-3 col-span-full' 
@@ -28,15 +35,15 @@ const Works = () => {
     { 
       id: 3, 
       category: 'ACCOMMODATION', 
-      image: image3, 
-      title: 'Sport Wear', 
+      image: temple, 
+      title: 'Temple', 
       type: 'ACCOMMODATION', 
       className: 'md:col-span-2 md:row-span-2 col-span-full'
     },
     { 
       id: 4, 
       category: 'PEOPLE', 
-      image: image1, 
+      image: vadhina, 
       title: 'Asian Style', 
       type: 'PEOPLE', 
       className: 'md:col-span-2 md:row-span-3 col-span-full'
@@ -44,7 +51,7 @@ const Works = () => {
     { 
       id: 5, 
       category: 'PEOPLE', 
-      image: image2, 
+      image: eyes, 
       title: 'Eye Detail', 
       type: 'PEOPLE', 
       className: 'md:col-span-2 md:row-span-1 col-span-full'
@@ -52,34 +59,34 @@ const Works = () => {
     { 
       id: 6, 
       category: 'ACCOMMODATION', 
-      image: image3, 
-      title: 'Red Accessory', 
+      image: accom1, 
+      title: 'Arch', 
       type: 'ACCOMMODATION', 
-      className: 'md:col-span-2 md:row-span-2 col-span-full'
+      className: 'md:col-span-2 md:row-span-6 col-span-full'
     },
     { 
       id: 7, 
       category: 'PEOPLE', 
-      image: image1, 
-      title: 'Elegant Dress', 
+      image: jacksparrow, 
+      title: 'Dress UP', 
       type: 'PEOPLE', 
-      className: 'md:col-span-2 md:row-span-3 col-span-full'
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
     },
     { 
       id: 8, 
       category: 'PEOPLE', 
-      image: image2, 
+      image: natura, 
       title: 'Natural Look', 
       type: 'PEOPLE', 
-      className: 'md:col-span-2 md:row-span-2 col-span-full'
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
     },
     { 
       id: 9, 
       category: 'PEOPLE', 
-      image: image3, 
-      title: 'Glamour Shot', 
+      image: glamour, 
+      title: 'F walk', 
       type: 'PEOPLE', 
-      className: 'md:col-span-2 md:row-span-2 col-span-full'
+      className: 'md:col-span-2 md:row-span-4 col-span-full'
     }
   ];
 
