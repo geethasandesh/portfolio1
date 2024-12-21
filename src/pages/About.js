@@ -41,7 +41,7 @@ const About = () => {
             photography, and over time, I expanded my skills into video editing
             and cinematography. As a student, I am constantly learning and
             evolving; I love capturing moments that tell a story and convey
-            emotions, whether through still images or moving pictures! 
+            emotions, whether through still images or moving pictures !! 
           </h2>
         </div>
       </div>
